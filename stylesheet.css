@@ -1325,6 +1325,38 @@ audio {
     }
 
 
+/* ===== PURPLE THEME OVERRIDES (SAFE) ===== */
+
+.peach,
+.peach-after {
+	background-color: #6A0DAD !important;
+}
+
+@keyframes peach_alive {
+	0%{ background-color: #6A0DAD; }
+	25%{ background-color: #8E44AD; }
+	50%{ background-color: #6A0DAD; }
+	75%{ background-color: #B57EDC; }
+	100%{ background-color: #6A0DAD; }
+}
+
+.balloons h2,
+.message p,
+.type-wrap {
+	color: #B57EDC !important;
+	text-shadow: 2px 2px 4px #000 !important;
+}
+
+.btn-primary {
+	background-color: #6A0DAD !important;
+	border-color: #6A0DAD !important;
+}
+
+.btn-primary:hover {
+	background-color: #4A235A !important;
+}
+
+
 
     /*controlling tablet width*/
     /*@media only screen and (max-width: 720px){
